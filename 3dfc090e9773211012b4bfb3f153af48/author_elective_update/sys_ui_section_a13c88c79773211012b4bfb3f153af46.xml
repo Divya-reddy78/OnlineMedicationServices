@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="a13c88c79773211012b4bfb3f153af46" sys_domain="global" table="x_684487_oms_medicines" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>side_effect</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:35:58</sys_created_on>
+            <sys_id>793cc8c79773211012b4bfb3f153af1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_684487_oms_medicines" sys_domain="global" view="Default view">a13c88c79773211012b4bfb3f153af46</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:35:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:35:58</sys_created_on>
+            <sys_id>f93cc8c79773211012b4bfb3f153af1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_684487_oms_medicines" sys_domain="global" view="Default view">a13c88c79773211012b4bfb3f153af46</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:35:58</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_684487_oms_medicines</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a13c88c79773211012b4bfb3f153af46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_684487_oms_medicines</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_section_a13c88c79773211012b4bfb3f153af46</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:35:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>3389b1631bbcc11032182f8dee4bcb86</instance_id>
+        <instance_name>dev120480</instance_name>
+        <name>sys_ui_section_a13c88c79773211012b4bfb3f153af46</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="a13c88c79773211012b4bfb3f153af46" sys_domain="global" table="x_684487_oms_medicines" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>side_effect</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-07 06:35:58</sys_created_on><sys_id>793cc8c79773211012b4bfb3f153af1b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_684487_oms_medicines" sys_domain="global" view="Default view">a13c88c79773211012b4bfb3f153af46</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-07 06:35:58</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-07 06:35:58</sys_created_on><sys_id>f93cc8c79773211012b4bfb3f153af1b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_684487_oms_medicines" sys_domain="global" view="Default view">a13c88c79773211012b4bfb3f153af46</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-07 06:35:58</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_684487_oms_medicines</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-07 06:35:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a13c88c79773211012b4bfb3f153af46</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_684487_oms_medicines</sys_name><sys_overrides/><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_ui_section_a13c88c79773211012b4bfb3f153af46</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-07 06:35:57</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1344977318</payload_hash>
+        <record_name>Medicines</record_name>
+        <reverted_from/>
+        <source>31fc090e9773211012b4bfb3f153af4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 06:35:58</sys_created_on>
+        <sys_id>393cc8c79773211012b4bfb3f153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1892f1082520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 06:35:58</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>bd3cc8c7e47321100132f78a5f21a21c</update_guid>
+        <update_guid_history>bd3cc8c7e47321100132f78a5f21a21c:-1344977318</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 06:36:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>01edc92d59ee4d60986d442f04ef0790</sys_id>
+        <sys_metadata>a13c88c79773211012b4bfb3f153af46</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Medicines">149ecdce9773211012b4bfb3f153afd7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_a13c88c79773211012b4bfb3f153af46</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a13c88c79773211012b4bfb3f153af46">393cc8c79773211012b4bfb3f153af1d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 06:36:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

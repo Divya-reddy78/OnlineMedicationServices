@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6ae740c39773211012b4bfb3f153aff4" label="Buy Medicines" max_length="40" name="x_684487_oms_buy_medicines" type="collection">
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="requested_for"/>
+        </index>
+    </element>
+</database>

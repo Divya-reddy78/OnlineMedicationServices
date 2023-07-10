@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Online Medication Services">dddec14e9773211012b4bfb3f153af8a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_684487_oms_medicines</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 08:53:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6dde050297b3211012b4bfb3f153af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_app_module_6dde050297b3211012b4bfb3f153af5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 08:53:07</sys_updated_on>
+        <timeline_page/>
+        <title>All</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>3389b1631bbcc11032182f8dee4bcb86</instance_id>
+        <instance_name>dev120480</instance_name>
+        <name>sys_app_module_6dde050297b3211012b4bfb3f153af5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Online Medication Services">dddec14e9773211012b4bfb3f153af8a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_684487_oms_medicines</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-04 08:53:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6dde050297b3211012b4bfb3f153af5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_app_module_6dde050297b3211012b4bfb3f153af5b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-04 08:53:07</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>280514198</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>31fc090e9773211012b4bfb3f153af4b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 08:53:07</sys_created_on>
+        <sys_id>69de050297b3211012b4bfb3f153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189201afdd60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 08:53:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>adde050203b321102a2fbfaab85ff85c</update_guid>
+        <update_guid_history>adde050203b321102a2fbfaab85ff85c:280514198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All">cc45198697b3211012b4bfb3f153afbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 09:21:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0eeb1a7bd6dd4fcfb9f55833066c4371</sys_id>
+        <sys_metadata>6dde050297b3211012b4bfb3f153af5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_app_module_6dde050297b3211012b4bfb3f153af5b</sys_update_name>
+        <sys_update_version display_value="sys_app_module_6dde050297b3211012b4bfb3f153af5b">69de050297b3211012b4bfb3f153af5d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 09:21:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

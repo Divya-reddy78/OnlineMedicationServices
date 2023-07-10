@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Store" section_id="5be2484f9733211012b4bfb3f153af44" sys_domain="global" table="customer_account" version="3" view="case">
+        <sys_ui_section action="DELETE">
+            <caption>Store</caption>
+            <header>false</header>
+            <name>customer_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 05:55:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5be2484f9733211012b4bfb3f153af44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_section_5be2484f9733211012b4bfb3f153af44</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 05:55:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Case" name="case">bfc8572a97b3211012b4bfb3f153af43</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>3389b1631bbcc11032182f8dee4bcb86</instance_id>
+        <instance_name>dev120480</instance_name>
+        <name>sys_ui_section_5be2484f9733211012b4bfb3f153af44</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Store" section_id="5be2484f9733211012b4bfb3f153af44" sys_domain="global" table="customer_account" version="3" view="case"><sys_ui_section action="INSERT_OR_UPDATE"><caption>Store</caption><header>false</header><name>customer_account</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-07 05:55:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5be2484f9733211012b4bfb3f153af44</sys_id><sys_mod_count>0</sys_mod_count><sys_name>customer_account</sys_name><sys_overrides/><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_ui_section_5be2484f9733211012b4bfb3f153af44</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-07 05:55:23</sys_updated_on><sys_user/><title>false</title><view display_value="Case" name="case">bfc8572a97b3211012b4bfb3f153af43</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>238412249</payload_hash>
+        <record_name>Account</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 06:08:39</sys_created_on>
+        <sys_id>39f580439773211012b4bfb3f153afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1892ef781340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 06:08:39</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f5f58043b3732110f97d31a3c801e3b8</update_guid>
+        <update_guid_history>f5f58043b3732110f97d31a3c801e3b8:238412249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 06:08:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>06351e21109641228038e9c910df4444</sys_id>
+        <sys_metadata>5be2484f9733211012b4bfb3f153af44</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Store</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Customer Account">eb289b2297b3211012b4bfb3f153af87</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5be2484f9733211012b4bfb3f153af44</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5be2484f9733211012b4bfb3f153af44">39f580439773211012b4bfb3f153afb8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 06:08:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

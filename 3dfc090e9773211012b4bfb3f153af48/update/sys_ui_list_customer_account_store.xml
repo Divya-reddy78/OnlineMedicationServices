@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="customer_account" version="2" view="Store">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="customer_account" element="NULL" name="customer_account" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">344988079773211012b4bfb3f153af3b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:23:04</sys_created_on>
+            <sys_id>bc4988079773211012b4bfb3f153af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:23:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="customer_account" element="NULL" name="customer_account" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">344988079773211012b4bfb3f153af3b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:23:04</sys_created_on>
+            <sys_id>304988079773211012b4bfb3f153af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:23:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>street</element>
+            <list_id display_value="customer_account" element="NULL" name="customer_account" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">344988079773211012b4bfb3f153af3b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:23:04</sys_created_on>
+            <sys_id>b04988079773211012b4bfb3f153af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:23:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>city</element>
+            <list_id display_value="customer_account" element="NULL" name="customer_account" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">344988079773211012b4bfb3f153af3b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:23:04</sys_created_on>
+            <sys_id>344988079773211012b4bfb3f153af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:23:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>zip</element>
+            <list_id display_value="customer_account" element="NULL" name="customer_account" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">344988079773211012b4bfb3f153af3b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:23:04</sys_created_on>
+            <sys_id>b44988079773211012b4bfb3f153af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:23:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>phone</element>
+            <list_id display_value="customer_account" element="NULL" name="customer_account" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">344988079773211012b4bfb3f153af3b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:23:04</sys_created_on>
+            <sys_id>384988079773211012b4bfb3f153af3c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:23:04</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>customer_account</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 06:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>344988079773211012b4bfb3f153af3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_list_customer_account_Store</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 06:23:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Store" name="Store">d38ffb7a9733211012b4bfb3f153afc1</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
