@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3cec440b9773211012b4bfb3f153af76" label="Dosage" max_length="40" name="x_684487_oms_dosage" type="collection">
         <element label="Medicine" max_length="32" name="medicine" read_only="true" reference="x_684487_oms_medicines" type="reference"/>
-        <element label="Mg" mandatory="true" max_length="40" name="mg" type="string"/>
-        <element label="Price" mandatory="true" max_length="20" name="price" type="integer"/>
+        <element display="true" label="Mg" mandatory="true" max_length="40" name="mg" type="string"/>
         <index name="index">
             <element name="medicine"/>
         </index>

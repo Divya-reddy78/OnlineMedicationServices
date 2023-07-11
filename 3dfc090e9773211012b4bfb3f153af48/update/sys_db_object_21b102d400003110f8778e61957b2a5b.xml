@@ -10,28 +10,28 @@
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
-        <label>Buy Medicines</label>
+        <label>Available Medicines</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_684487_oms_buy_medicines</name>
-        <number_ref display_value="BUY">455eb59000003110f8778e61957b2a1c</number_ref>
+        <name>x_684487_oms_available_medicines</name>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-07 06:18:06</sys_created_on>
-        <sys_id>6ae740c39773211012b4bfb3f153aff4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Buy Medicines</sys_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-11 12:22:28</sys_created_on>
+        <sys_id>21b102d400003110f8778e61957b2a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Available Medicines</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
-        <sys_update_name>sys_db_object_6ae740c39773211012b4bfb3f153aff4</sys_update_name>
+        <sys_update_name>sys_db_object_21b102d400003110f8778e61957b2a5b</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-11 12:06:56</sys_updated_on>
+        <sys_updated_on>2023-07-11 12:22:28</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_684487_oms.med_user" name="x_684487_oms.med_user">a117d50a97b3211012b4bfb3f153afe7</user_role>
+        <user_role display_value="x_684487_oms.med_admin" name="x_684487_oms.med_admin">9a4f4d0297b3211012b4bfb3f153afe3</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

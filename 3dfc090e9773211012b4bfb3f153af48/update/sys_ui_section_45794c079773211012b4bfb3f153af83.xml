@@ -3,84 +3,126 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:48:42</sys_created_on>
-            <sys_id>815870479737211012b4bfb3f153afa0</sys_id>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:57:27</sys_created_on>
+            <sys_id>c09234c0e8043510f877cd2e99fbf2ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:48:42</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:57:27</sys_created_on>
+            <sys_id>449234c0e8043510f877cd2e99fbf2ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:57:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:48:42</sys_created_on>
-            <sys_id>055870479737211012b4bfb3f153afd2</sys_id>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:57:27</sys_created_on>
+            <sys_id>c49234c0e8043510f877cd2e99fbf2ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:48:42</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:57:27</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:48:42</sys_created_on>
-            <sys_id>855870479737211012b4bfb3f153afd2</sys_id>
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:57:27</sys_created_on>
+            <sys_id>489234c0e8043510f877cd2e99fbf2ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:48:42</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:57:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:48:42</sys_created_on>
-            <sys_id>095870479737211012b4bfb3f153afd2</sys_id>
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:57:27</sys_created_on>
+            <sys_id>c89234c0e8043510f877cd2e99fbf2ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:48:42</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:57:27</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:48:42</sys_created_on>
-            <sys_id>895870479737211012b4bfb3f153afd2</sys_id>
+            <position>5</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:57:27</sys_created_on>
+            <sys_id>4c9234c0e8043510f877cd2e99fbf2ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:48:42</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:57:27</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>side_effect</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:48:42</sys_created_on>
-            <sys_id>0d5870479737211012b4bfb3f153afd2</sys_id>
+            <position>6</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:57:27</sys_created_on>
+            <sys_id>cc9234c0e8043510f877cd2e99fbf2ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:48:42</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>available_medicines</element>
+            <position>7</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 12:13:44</sys_created_on>
+            <sys_id>60efbd1400003110f8778e61957b2a23</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 12:13:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>store</element>
+            <position>8</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 12:18:52</sys_created_on>
+            <sys_id>b301861400003110f8778e61957b2a88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_medicines" sys_domain="global" view="Default view">45794c079773211012b4bfb3f153af83</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 12:18:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

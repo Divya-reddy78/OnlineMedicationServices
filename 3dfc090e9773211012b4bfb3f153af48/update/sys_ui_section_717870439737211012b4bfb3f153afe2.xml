@@ -1,58 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="717870439737211012b4bfb3f153afe2" sys_domain="global" table="x_684487_oms_dosage" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>mg</element>
+            <element>medicine</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:51:37</sys_created_on>
-            <sys_id>3ff8fc479737211012b4bfb3f153afde</sys_id>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:58:37</sys_created_on>
+            <sys_id>d9d2f8c0e8043510f877cd2e99fbf271</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_dosage" sys_domain="global" view="Default view">717870439737211012b4bfb3f153afe2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:51:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>price</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:51:37</sys_created_on>
-            <sys_id>bff8fc479737211012b4bfb3f153afde</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_dosage" sys_domain="global" view="Default view">717870439737211012b4bfb3f153afe2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:51:37</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:58:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:51:37</sys_created_on>
-            <sys_id>33f8fc479737211012b4bfb3f153afdf</sys_id>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:58:37</sys_created_on>
+            <sys_id>5dd2f8c0e8043510f877cd2e99fbf271</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_dosage" sys_domain="global" view="Default view">717870439737211012b4bfb3f153afe2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:51:37</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:58:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>medicine</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 09:51:37</sys_created_on>
-            <sys_id>b3f8fc479737211012b4bfb3f153afdf</sys_id>
+            <element>mg</element>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-10 11:58:37</sys_created_on>
+            <sys_id>ddd2f8c0e8043510f877cd2e99fbf271</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_dosage" sys_domain="global" view="Default view">717870439737211012b4bfb3f153afe2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 09:51:37</sys_updated_on>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-10 11:58:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

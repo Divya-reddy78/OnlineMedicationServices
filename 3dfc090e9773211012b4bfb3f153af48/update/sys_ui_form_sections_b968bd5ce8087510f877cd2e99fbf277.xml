@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b968bd5ce8087510f877cd2e99fbf277" sys_domain="global" table="x_684487_oms_buy_medicines" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:41:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b568bd5ce8087510f877cd2e99fbf2c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_684487_oms_buy_medicines" name="x_684487_oms_buy_medicines" sys_domain="global" view="Default view">b968bd5ce8087510f877cd2e99fbf277</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_buy_medicines" sys_domain="global" view="Default view">b3245ccb9773211012b4bfb3f153af45</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:41:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_684487_oms_buy_medicines</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:41:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b968bd5ce8087510f877cd2e99fbf277</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_684487_oms_buy_medicines</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b968bd5ce8087510f877cd2e99fbf277</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:41:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

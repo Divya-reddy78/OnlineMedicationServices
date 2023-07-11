@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_684487_oms_available_medicines" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>medicine</element>
+            <list_id display_value="x_684487_oms_available_medicines" element="NULL" name="x_684487_oms_available_medicines" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5630a1800003110f8778e61957b2a52</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 12:29:06</sys_created_on>
+            <sys_id>61630a1800003110f8778e61957b2a53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 12:29:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>dosage</element>
+            <list_id display_value="x_684487_oms_available_medicines" element="NULL" name="x_684487_oms_available_medicines" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5630a1800003110f8778e61957b2a52</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 12:29:06</sys_created_on>
+            <sys_id>e1630a1800003110f8778e61957b2a53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 12:29:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>store</element>
+            <list_id display_value="x_684487_oms_available_medicines" element="NULL" name="x_684487_oms_available_medicines" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5630a1800003110f8778e61957b2a52</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 12:29:06</sys_created_on>
+            <sys_id>65630a1800003110f8778e61957b2a53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 12:29:06</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_684487_oms_available_medicines</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 12:29:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5630a1800003110f8778e61957b2a52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_684487_oms_available_medicines</sys_name>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_list_x_684487_oms_available_medicines_null</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 12:29:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>16c3ea7eb03321109ddabd57ff9bece4</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_list_x_684487_oms_available_medicines_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_684487_oms_available_medicines" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>medicine</element><list_id display_value="x_684487_oms_available_medicines" element="NULL" name="x_684487_oms_available_medicines" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5630a1800003110f8778e61957b2a52</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-11 12:29:06</sys_created_on><sys_id>61630a1800003110f8778e61957b2a53</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-11 12:29:06</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>dosage</element><list_id display_value="x_684487_oms_available_medicines" element="NULL" name="x_684487_oms_available_medicines" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5630a1800003110f8778e61957b2a52</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-11 12:29:06</sys_created_on><sys_id>e1630a1800003110f8778e61957b2a53</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-11 12:29:06</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>store</element><list_id display_value="x_684487_oms_available_medicines" element="NULL" name="x_684487_oms_available_medicines" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a5630a1800003110f8778e61957b2a52</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-11 12:29:06</sys_created_on><sys_id>65630a1800003110f8778e61957b2a53</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-11 12:29:06</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_684487_oms_available_medicines</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-11 12:29:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a5630a1800003110f8778e61957b2a52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_684487_oms_available_medicines</sys_name><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_ui_list_x_684487_oms_available_medicines_null</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-11 12:29:06</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1002783418</payload_hash>
+        <record_name>Available Medicines</record_name>
+        <reverted_from/>
+        <source>31bd2c4ce8c03510f877cd2e99fbf2e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-11 12:29:06</sys_created_on>
+        <sys_id>ed63c25800003110f8778e61957b2a9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18944ed3f3b0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-11 12:29:06</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>e563c2589c003110e1a049e78f8a2c9a</update_guid>
+        <update_guid_history>e563c2589c003110e1a049e78f8a2c9a:1002783418,e9238ed4db0031102f27fce39a6fd29a:748733700,7313ca18b3003110c55af7cdd6c42d46:1498873747</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-11 12:35:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>69ac639b50c04c92b0f621bffdba7564</sys_id>
+        <sys_metadata>a5630a1800003110f8778e61957b2a52</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_684487_oms_available_medicines</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Available Medicines">21b102d400003110f8778e61957b2a5b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_684487_oms_available_medicines_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_684487_oms_available_medicines_null">ed63c25800003110f8778e61957b2a9a</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-11 12:35:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

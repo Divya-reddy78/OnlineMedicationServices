@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-11 12:50:04</sys_created_on>
+        <sys_id>303886dc00003110f8778e61957b2a58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AvailableMedicinesImpl.x_684487_oms.med_admin</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_security_acl display_value="AvailableMedicinesImpl">2c380a9c00003110f8778e61957b2ac3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_303886dc00003110f8778e61957b2a58</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-11 12:50:04</sys_updated_on>
+        <sys_user_role display_value="x_684487_oms.med_admin" name="x_684487_oms.med_admin">9a4f4d0297b3211012b4bfb3f153afe3</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
