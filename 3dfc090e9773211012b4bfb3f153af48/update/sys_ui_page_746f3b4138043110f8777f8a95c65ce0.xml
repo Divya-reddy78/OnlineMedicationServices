@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function cancel(){
+	var c = gel('confirmation_result');
+	c.value = 'go_back';
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+function order() {
+	var c = gel('confirmation_result');
+	c.value = 'order';
+	return true;
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_684487_oms_Order.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:ui_form>
+<input type="hidden" name="confirmation_result" id="confirmation_result" value=""/>
+<input type="hidden" name="order_sysid" id="order_sysid" value="${sysparm_sys_id}"/>
+
+<div style="text-align:left;">           
+	
+	<div> $[HTML:gs.getMessage("${sysparm_test}")] </div>
+	
+	<div align="right" style="margin-top:16px">
+	<button class="btn btn-default" style="margin-right:4px" onclick="cancel();">${gs.getMessage("Cancel")}</button>
+	<button class="btn btn-danger" onclick="order();">${gs.getMessage("Order")}</button>
+	</div>
+</div>
+
+</g:ui_form>
+</j:jelly>]]></html>
+        <name>Order</name>
+        <processing_script><![CDATA[if(confirmation_result == 'order') {
+	var order = new x_684487_oms.OrderImpl();
+	order.orderCreated(order_sysid);
+	gs.warn("Divya here 4"+ order_sysid);
+	response.sendRedirect("/x_684487_oms_buy_medicines?sys_id=" + order_sysid);
+	gs.warn("Divya here 5"+ order_sysid);
+}]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-14 10:00:24</sys_created_on>
+        <sys_id>746f3b4138043110f8777f8a95c65ce0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Order</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_ui_page_746f3b4138043110f8777f8a95c65ce0</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-14 11:00:11</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6ae740c39773211012b4bfb3f153aff4" label="Buy Medicines" max_length="40" name="x_684487_oms_buy_medicines" type="collection">
+    <element db_object_id="6ae740c39773211012b4bfb3f153aff4" label="Orders" max_length="40" name="x_684487_oms_buy_medicines" type="collection">
         <element label="City" max_length="50" name="city" type="string"/>
         <element label="Country" max_length="40" name="country" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Phone" max_length="40" name="phone" type="ph_number"/>
         <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
         <element label="State / Province" max_length="40" name="state" type="string"/>
+        <element choice="3" default="draft" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="draft"/>
+                <element inactive_on_update="false" label="Requested" sequence="2" value="requested"/>
+                <element inactive_on_update="false" label="Accepted" sequence="3" value="accepted"/>
+                <element inactive_on_update="false" label="Out For Delivery" sequence="4" value="out_for_delivery"/>
+                <element inactive_on_update="false" label="Delivered" sequence="5" value="delivered"/>
+            </choice>
+        </element>
         <element attributes="encode_utf8=false" label="Store" mandatory="true" max_length="32" name="store" reference="customer_account" reference_qual="javascript: &quot;zip=&quot; + current.zip" type="reference" use_reference_qualifier="advanced"/>
         <element label="Street" max_length="40" name="street" type="multi_two_lines"/>
+        <element label="Total Price" max_length="40" name="total_price" read_only="true" type="integer"/>
         <element label="Zip / Postal code" mandatory="true" max_length="40" name="zip" type="string"/>
         <index name="index">
             <element name="requested_for"/>

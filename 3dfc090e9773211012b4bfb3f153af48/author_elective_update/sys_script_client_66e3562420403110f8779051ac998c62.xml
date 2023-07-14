@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>medicine</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Add Medicine Price </name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var ga = new GlideAjax('AvailableMedicinesImpl');
+    ga.addParam('sysparm_name', 'getAvailMedPrice');
+    ga.addParam('sysparm_avail_medicine_id', newValue);
+	ga.getXML(PopulatePrice);
+	
+	function PopulatePrice(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('price',answer);
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-12 08:19:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66e3562420403110f8779051ac998c62</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Populate Add Medicine Price </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_script_client_66e3562420403110f8779051ac998c62</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-12 09:39:18</sys_updated_on>
+        <table>x_684487_oms_add_medicines</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>16c3ea7eb03321109ddabd57ff9bece4</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_client_66e3562420403110f8779051ac998c62</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;medicine&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate Add Medicine Price &lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	var ga = new GlideAjax('AvailableMedicinesImpl');
+    ga.addParam('sysparm_name', 'getAvailMedPrice');
+    ga.addParam('sysparm_avail_medicine_id', newValue);
+	ga.getXML(PopulatePrice);
+	
+	function PopulatePrice(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('price',answer);
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-12 08:19:45&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;66e3562420403110f8779051ac998c62&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Add Medicine Price &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online Medication Services" source="x_684487_oms"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Medication Services"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_66e3562420403110f8779051ac998c62&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-12 09:39:18&lt;/sys_updated_on&gt;&lt;table&gt;x_684487_oms_add_medicines&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>458353290</payload_hash>
+        <record_name>Populate Add Medicine Price </record_name>
+        <reverted_from/>
+        <source>31bd2c4ce8c03510f877cd2e99fbf2e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-12 09:39:18</sys_created_on>
+        <sys_id>0426a66820803110f8779051ac998c16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189497827320000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-12 09:39:18</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0c26a668b0803110b348eaa481b64215</update_guid>
+        <update_guid_history>0c26a668b0803110b348eaa481b64215:458353290,0c55ee28e880311076ee8934079aeb36:24290543,7d052e249e8031105905a4d4d3616d95:-480081117,25ff52e0e780311037e015646e1501be:-1007537657,5fbf96a0468031109afa13743150f0de:1768251512,206f16a0a8803110d939c494b90b6aa0:-1018723516,c41fd2a08380311004198471ed5f6372:-1909774643,a1de9e6095803110bf815db1c62011ef:-1730388179,978eda20f780311084378f35b8edd085:331165517,9d4ed620518031108034c3c82a6dd6a1:-1108775179,8acd9620e8803110a4708d1594bd91d7:-1578750560,3cad56ec0b40311075d7284b1d80bc49:-1421167231,597d5aec954031105ce3692c2d3712a3:-868205469,aee3562414403110d467f6bafc551a63:-409091167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-14 02:22:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>18575ccfcad040ce82bb3648aef25a61</sys_id>
+        <sys_metadata>66e3562420403110f8779051ac998c62</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Add Medicine Price </sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Add Medicines">c35d25e000cc3110f8778e61957b2a93</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_66e3562420403110f8779051ac998c62</sys_update_name>
+        <sys_update_version display_value="sys_script_client_66e3562420403110f8779051ac998c62">0426a66820803110f8779051ac998c16</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-14 02:22:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

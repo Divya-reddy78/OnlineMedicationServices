@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_684487_oms_delivery_agents">x_684487_oms_delivery_agents</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>DEL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-12 10:16:08</sys_created_on>
+        <sys_id>af8e66e020c03110f8779051ac998cd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEL</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_number_af8e66e020c03110f8779051ac998cd0</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-12 10:16:08</sys_updated_on>
+    </sys_number>
+</record_update>

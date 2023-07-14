@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="price" label="Price" language="en" table="x_684487_oms_available_medicines">
+    <sys_documentation element="" label="Delivery Agents" language="en" table="x_684487_oms_delivery_agents">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>price</element>
+            <element/>
             <help/>
             <hint/>
-            <label>Price</label>
+            <label>Delivery Agents</label>
             <language>en</language>
-            <name>x_684487_oms_available_medicines</name>
-            <plural>Prices</plural>
+            <name>x_684487_oms_delivery_agents</name>
+            <plural>Delivery Agents</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-11 12:46:55</sys_created_on>
+            <sys_created_on>2023-07-12 10:16:08</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Price</sys_name>
+            <sys_name>Delivery Agents</sys_name>
             <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
             <sys_policy/>
             <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
-            <sys_update_name>sys_documentation_x_684487_oms_available_medicines_price_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_684487_oms_delivery_agents__en</sys_update_name>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-11 12:46:55</sys_updated_on>
+            <sys_updated_on>2023-07-12 10:16:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>medicine.price</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-14 02:04:00</sys_created_on>
+        <sys_id>e2015f0138403110f8777f8a95c65c95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>medicine.price</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e2015f0138403110f8777f8a95c65c95</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-14 02:04:00</sys_updated_on>
+        <table>x_684487_oms_available_medicines</table>
+        <ui_policy display_value="Make Price Read only">67e0db0138403110f8777f8a95c65c4c</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>16c3ea7eb03321109ddabd57ff9bece4</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_policy_action_e2015f0138403110f8777f8a95c65c95</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>medicine.price</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-14 02:04:00</sys_created_on><sys_id>e2015f0138403110f8777f8a95c65c95</sys_id><sys_mod_count>0</sys_mod_count><sys_name>medicine.price</sys_name><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_ui_policy_action_e2015f0138403110f8777f8a95c65c95</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-14 02:04:00</sys_updated_on><table>x_684487_oms_available_medicines</table><ui_policy display_value="Make Price Read only">67e0db0138403110f8777f8a95c65c4c</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>2038079290</payload_hash>
+        <record_name>medicine.price</record_name>
+        <reverted_from/>
+        <source>31bd2c4ce8c03510f877cd2e99fbf2e9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-14 02:04:00</sys_created_on>
+        <sys_id>82115f0138403110f8777f8a95c65c3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189522409650000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-14 02:04:00</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>c6115f01224031101f10bab2dece543b</update_guid>
+        <update_guid_history>c6115f01224031101f10bab2dece543b:2038079290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-14 02:26:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1db1c37f3a6a4280858a3c50a2ea8100</sys_id>
+        <sys_metadata>e2015f0138403110f8777f8a95c65c95</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>medicine.price</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Make Price Read only">67e0db0138403110f8777f8a95c65c4c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_e2015f0138403110f8777f8a95c65c95</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_e2015f0138403110f8777f8a95c65c95">82115f0138403110f8777f8a95c65c3c</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-14 02:26:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

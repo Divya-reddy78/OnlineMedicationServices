@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="price" table="x_684487_oms_available_medicines">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_684487_oms_store_delivery_agents">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Price</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,19 +26,19 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>price</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_684487_oms_available_medicines</name>
+        <name>x_684487_oms_store_delivery_agents</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>maint</sys_created_by>
-        <sys_created_on>2023-07-11 12:46:55</sys_created_on>
-        <sys_name>Price</sys_name>
+        <sys_created_on>2023-07-14 01:37:09</sys_created_on>
+        <sys_name>x_684487_oms_store_delivery_agents</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
-        <sys_update_name>sys_dictionary_x_684487_oms_available_medicines_price</sys_update_name>
-        <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-11 13:00:14</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_684487_oms_store_delivery_agents_null</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-14 10:45:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
