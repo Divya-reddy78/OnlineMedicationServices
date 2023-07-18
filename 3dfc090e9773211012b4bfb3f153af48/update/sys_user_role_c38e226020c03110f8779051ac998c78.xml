@@ -6,21 +6,21 @@
         <elevated_privilege>false</elevated_privilege>
         <grantable>true</grantable>
         <includes_roles/>
-        <name>x_684487_oms.delivery_agents</name>
+        <name>x_684487_oms.delivery_agent</name>
         <requires_subscription>-1</requires_subscription>
         <scoped_admin>false</scoped_admin>
-        <suffix>delivery_agents</suffix>
+        <suffix>delivery_agent</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-07-12 10:16:06</sys_created_on>
         <sys_id>c38e226020c03110f8779051ac998c78</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_684487_oms.delivery_agents</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_684487_oms.delivery_agent</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_user_role_c38e226020c03110f8779051ac998c78</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-12 10:16:06</sys_updated_on>
+        <sys_updated_on>2023-07-17 15:47:58</sys_updated_on>
     </sys_user_role>
 </record_update>
