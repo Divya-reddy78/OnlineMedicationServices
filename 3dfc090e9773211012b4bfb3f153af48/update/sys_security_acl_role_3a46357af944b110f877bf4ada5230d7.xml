@@ -2,18 +2,18 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>maint</sys_created_by>
-        <sys_created_on>2023-07-18 05:30:44</sys_created_on>
-        <sys_id>1696ec26f9007110f877bf4ada5230b4</sys_id>
+        <sys_created_on>2023-07-19 05:57:26</sys_created_on>
+        <sys_id>3a46357af944b110f877bf4ada5230d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_684487_oms_buy_medicines.x_684487_oms.user</sys_name>
+        <sys_name>.x_684487_oms.store_admin</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
-        <sys_security_acl display_value="x_684487_oms_buy_medicines">d42844c39773211012b4bfb3f153af74</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_1696ec26f9007110f877bf4ada5230b4</sys_update_name>
+        <sys_security_acl display_value="x_684487_oms_add_medicines">8646f9bef944b110f877bf4ada52307a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3a46357af944b110f877bf4ada5230d7</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-18 05:30:44</sys_updated_on>
-        <sys_user_role display_value="x_684487_oms.user" name="x_684487_oms.user">ff366826f9007110f877bf4ada5230b6</sys_user_role>
+        <sys_updated_on>2023-07-19 05:57:26</sys_updated_on>
+        <sys_user_role display_value="x_684487_oms.store_admin" name="x_684487_oms.store_admin">e8ed333a9733211012b4bfb3f153af7f</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

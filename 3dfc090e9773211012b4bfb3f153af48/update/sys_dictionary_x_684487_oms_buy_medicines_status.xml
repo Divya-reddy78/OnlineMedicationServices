@@ -10,7 +10,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Status</column_label>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_dictionary_x_684487_oms_buy_medicines_status</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-14 06:01:32</sys_updated_on>
+        <sys_updated_on>2023-07-18 13:13:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

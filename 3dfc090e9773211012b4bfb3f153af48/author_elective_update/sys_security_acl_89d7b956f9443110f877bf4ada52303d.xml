@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>customer_account</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-17 16:46:24</sys_created_on>
+        <sys_id>89d7b956f9443110f877bf4ada52303d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>customer_account</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_security_acl_89d7b956f9443110f877bf4ada52303d</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-18 12:36:10</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_security_acl_89d7b956f9443110f877bf4ada52303d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><local_or_existing>Local</local_or_existing><name>customer_account</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-17 16:46:24</sys_created_on><sys_id>89d7b956f9443110f877bf4ada52303d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>customer_account</sys_name><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_security_acl_89d7b956f9443110f877bf4ada52303d</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-18 12:36:10</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-2006723270</payload_hash>
+        <record_name>customer_account</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-18 12:36:10</sys_created_on>
+        <sys_id>e128826ef9847110f877bf4ada523054</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18969003e6b0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-18 12:36:10</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2d28826efc8471102ab3f9c32c550c53</update_guid>
+        <update_guid_history>2d28826efc8471102ab3f9c32c550c53:-2006723270,01d7b95638443110164a1f87d6708642:-1605012159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-18 12:46:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>4126ba8ea6b24a9f9968fcb6a12220a1</sys_id>
+        <sys_metadata>89d7b956f9443110f877bf4ada52303d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>customer_account</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="customer_account">b3baec161c003110f8777e1c99e9d039</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_89d7b956f9443110f877bf4ada52303d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_89d7b956f9443110f877bf4ada52303d">e128826ef9847110f877bf4ada523054</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-18 12:46:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

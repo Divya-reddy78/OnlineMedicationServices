@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f4ca0f0938003110f8777f8a95c65c9e" label="Store Delivery Agents" max_length="40" name="x_684487_oms_store_delivery_agents" type="collection">
-        <element label="Delivery Agent" mandatory="true" max_length="32" name="delivery_agent" reference="x_684487_oms_delivery_agents" type="reference"/>
+        <element display="true" label="Delivery Agent" mandatory="true" max_length="32" name="delivery_agent" reference="x_684487_oms_delivery_agents" type="reference"/>
         <element label="Store" max_length="32" name="store" read_only="true" reference="customer_account" type="reference"/>
         <index name="index">
             <element name="delivery_agent"/>

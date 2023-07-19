@@ -22,16 +22,16 @@
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-07-12 05:31:57</sys_created_on>
         <sys_id>c35d25e000cc3110f8778e61957b2a93</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Add Medicines</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_db_object_c35d25e000cc3110f8778e61957b2a93</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-12 05:31:57</sys_updated_on>
+        <sys_updated_on>2023-07-18 13:27:53</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_684487_oms.med_admin" name="x_684487_oms.med_admin">9a4f4d0297b3211012b4bfb3f153afe3</user_role>
+        <user_role display_value="x_684487_oms.user" name="x_684487_oms.user">ff366826f9007110f877bf4ada5230b6</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

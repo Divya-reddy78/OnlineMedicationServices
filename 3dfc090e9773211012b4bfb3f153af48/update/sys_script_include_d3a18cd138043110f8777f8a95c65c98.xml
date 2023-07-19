@@ -10,32 +10,51 @@
         <script><![CDATA[var OrderImpl = Class.create();
 OrderImpl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     orderCreated: function(order_sysid) {
-		gs.warn("Divya here"+ order_sysid);
         if (!gs.nil(order_sysid)) {
             var orderGr = new GlideRecord('x_684487_oms_buy_medicines');
             orderGr.get(order_sysid);
-            //if (x_684487_oms.CommonUtils.isValidGlideRecord(orderGr)) {
-                orderGr.setValue('status', 'requested');
-				orderGr.update();
-				gs.warn("Divya here 2"+ order_sysid);
-            //}
+            orderGr.setValue('status', 'requested');
+            orderGr.update();
         }
-		gs.warn("Divya here 3"+ order_sysid);
     },
-
+    acceptOrder: function() {
+        if (!gs.nil(order_sysid)) {
+            var orderGr = new GlideRecord('x_684487_oms_buy_medicines');
+            orderGr.get(order_sysid);
+            orderGr.setValue('status', 'accepted');
+            orderGr.update();
+        }
+    },
+    deliverRefQual: function(store_sysid) {
+        var del_ids = [];
+        if (gs.nil(store_sysid)) {
+            return null;
+        }
+        var orderGr = new GlideRecord('x_684487_oms_store_delivery_agents');
+        orderGr.addQuery('store', store_sysid);
+        orderGr.query();
+        while (orderGr.next()) {
+            if (orderGr.delivery_agent.status == 'available') {
+                del_ids.push(orderGr.getValue('sys_id'));
+            }
+        }
+        var gr = new GlideRecord('x_684487_oms_store_delivery_agents');
+        gr.addQuery('sys_id', 'IN', !gs.nil(del_ids) ? del_ids : []);
+        return gr.getEncodedQuery();
+    },
     type: 'OrderImpl'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-07-14 05:37:10</sys_created_on>
         <sys_id>d3a18cd138043110f8777f8a95c65c98</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>OrderImpl</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_script_include_d3a18cd138043110f8777f8a95c65c98</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-14 11:06:33</sys_updated_on>
+        <sys_updated_on>2023-07-19 09:37:24</sys_updated_on>
     </sys_script_include>
 </record_update>
