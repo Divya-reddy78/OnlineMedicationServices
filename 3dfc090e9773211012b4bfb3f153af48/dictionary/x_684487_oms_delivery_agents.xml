@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d70ea2ac20803110f8779051ac998cfc" label="Delivery Agents" max_length="40" name="x_684487_oms_delivery_agents" type="collection">
-        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="32" name="name" reference="sys_user" reference_qual="roles=x_684487_oms.delivery_agent^EQ" reference_qual_condition="roles=x_684487_oms.delivery_agent^EQ" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Phone Number" mandatory="true" max_length="40" name="phone_number" type="ph_number"/>
-        <element choice="3" default="available" label="Status" max_length="40" name="status" type="choice">
+        <element choice="3" default="available" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
                 <element inactive_on_update="false" label="Occupied" sequence="2" value="occupied"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="name"/>
+        </index>
     </element>
 </database>

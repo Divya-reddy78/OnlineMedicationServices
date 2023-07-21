@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="08a3c08f9733211012b4bfb3f153af28" sys_domain="global" table="customer_account" version="3" view="Store">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6113f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e513f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6913f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e913f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6d13f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>ed13f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>6</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6113f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>7</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e113f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6513f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>9</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e513f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>customer_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 05:58:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08a3c08f9733211012b4bfb3f153af28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_section_08a3c08f9733211012b4bfb3f153af28</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 05:58:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Store" name="Store">d38ffb7a9733211012b4bfb3f153afc1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_section_08a3c08f9733211012b4bfb3f153af28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="08a3c08f9733211012b4bfb3f153af28" sys_domain="global" table="customer_account" version="3" view="Store">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6113f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e513f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone</element>
+            <position>2</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6913f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>3</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e913f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <position>4</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6d13f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>ed13f5d4e8087510f877cd2e99fbf262</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>6</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6113f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>7</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e113f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>6513f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>9</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-11 11:17:50</sys_created_on>
+            <sys_id>e513f5d4e8087510f877cd2e99fbf263</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="customer_account" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">08a3c08f9733211012b4bfb3f153af28</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-11 11:17:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>customer_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 05:58:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08a3c08f9733211012b4bfb3f153af28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_account</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_section_08a3c08f9733211012b4bfb3f153af28</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-07 05:58:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Store" name="Store">d38ffb7a9733211012b4bfb3f153afc1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>]]></payload>
+        <payload_hash>1843380630</payload_hash>
+        <record_name>Account</record_name>
+        <reverted_from/>
+        <source>fba0bc9af9003110f877bf4ada5230e5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-17 11:35:51</sys_created_on>
+        <sys_id>ccc0b4daf9003110f877bf4ada52303b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18963a2a8ba0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-17 11:35:51</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>8cc0b4dae400311054380a6b9801d53b</update_guid>
+        <update_guid_history>8cc0b4dae400311054380a6b9801d53b:1843380630</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-21 13:42:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>404efdd1fc104b44960d55604fa4e790</sys_id>
+        <sys_metadata>08a3c08f9733211012b4bfb3f153af28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>customer_account</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Customer Account">73baec161c003110f8777e1c99e9d035</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_08a3c08f9733211012b4bfb3f153af28</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_08a3c08f9733211012b4bfb3f153af28">ccc0b4daf9003110f877bf4ada52303b</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:42:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

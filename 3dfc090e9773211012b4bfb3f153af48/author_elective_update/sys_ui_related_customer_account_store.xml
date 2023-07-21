@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="customer_account" version="2" view="Store">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Account - Store" name="customer_account" related_list="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">c72978d2f9403110f877bf4ada523069</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_684487_oms_available_medicines.store</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-17 12:12:39</sys_created_on>
+            <sys_id>c32978d2f9403110f877bf4ada52306a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-17 12:12:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Account - Store" name="customer_account" related_list="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">c72978d2f9403110f877bf4ada523069</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_684487_oms_store_delivery_agents.store</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-17 12:12:39</sys_created_on>
+            <sys_id>83293056f9403110f877bf4ada523097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-17 12:12:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Account - Store" name="customer_account" related_list="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">c72978d2f9403110f877bf4ada523069</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_684487_oms_buy_medicines.store</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-17 12:12:39</sys_created_on>
+            <sys_id>87293056f9403110f877bf4ada523097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-17 12:12:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Account - Store</calculated_name>
+            <filter/>
+            <name>customer_account</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-17 12:12:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c72978d2f9403110f877bf4ada523069</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Account - Store</sys_name>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_related_customer_account_Store</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-17 12:12:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Store" name="Store">d38ffb7a9733211012b4bfb3f153afc1</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_related_customer_account_Store</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="customer_account" version="2" view="Store"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Account - Store" name="customer_account" related_list="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">c72978d2f9403110f877bf4ada523069</list_id><order_by/><position>0</position><related_list>x_684487_oms_available_medicines.store</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-17 12:12:39</sys_created_on><sys_id>c32978d2f9403110f877bf4ada52306a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-17 12:12:39</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Account - Store" name="customer_account" related_list="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">c72978d2f9403110f877bf4ada523069</list_id><order_by/><position>1</position><related_list>x_684487_oms_store_delivery_agents.store</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-17 12:12:39</sys_created_on><sys_id>83293056f9403110f877bf4ada523097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-17 12:12:39</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Account - Store" name="customer_account" related_list="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">c72978d2f9403110f877bf4ada523069</list_id><order_by/><position>2</position><related_list>x_684487_oms_buy_medicines.store</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-17 12:12:39</sys_created_on><sys_id>87293056f9403110f877bf4ada523097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-17 12:12:39</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Account - Store</calculated_name><filter/><name>customer_account</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-17 12:12:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c72978d2f9403110f877bf4ada523069</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Account - Store</sys_name><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_ui_related_customer_account_Store</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-17 12:12:39</sys_updated_on><sys_user/><view display_value="Store" name="Store">d38ffb7a9733211012b4bfb3f153afc1</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>739586877</payload_hash>
+        <record_name>Account</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-17 12:12:39</sys_created_on>
+        <sys_id>47293056f9403110f877bf4ada523099</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18963c458540000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-17 12:12:39</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>0f293056de4031106e289ffa4abb5a98</update_guid>
+        <update_guid_history>0f293056de4031106e289ffa4abb5a98:739586877,38297c16cc403110158a3be4f5213e79:1008702096,80c0b4dab600311006e5ea9e257a092b:1378176734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-21 13:43:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>07c1702617c649dca313a340c1c01110</sys_id>
+        <sys_metadata>c72978d2f9403110f877bf4ada523069</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Account - Store</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Customer Account">73baec161c003110f8777e1c99e9d035</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_related_customer_account_Store</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_customer_account_Store">47293056f9403110f877bf4ada523099</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:43:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

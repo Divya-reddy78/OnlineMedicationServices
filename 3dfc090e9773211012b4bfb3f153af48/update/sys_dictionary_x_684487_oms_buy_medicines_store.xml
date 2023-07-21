@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="customer_account">customer_account</reference>
+        <reference display_value="" name="x_684487_oms_store">x_684487_oms_store</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_dictionary_x_684487_oms_buy_medicines_store</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-11 11:59:26</sys_updated_on>
+        <sys_updated_on>2023-07-21 13:28:02</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

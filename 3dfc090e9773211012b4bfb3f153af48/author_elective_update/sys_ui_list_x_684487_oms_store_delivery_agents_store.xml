@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_684487_oms_store_delivery_agents" version="2" view="Store">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>store</element>
+            <list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-19 08:16:35</sys_created_on>
+            <sys_id>e0569ab2f908b110f877bf4ada5230c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-19 08:16:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>delivery_agent</element>
+            <list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-19 08:16:35</sys_created_on>
+            <sys_id>64569ab2f908b110f877bf4ada5230c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-19 08:16:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>delivery_agent.status</element>
+            <list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-19 08:16:35</sys_created_on>
+            <sys_id>e4569ab2f908b110f877bf4ada5230c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-19 08:16:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>delivery_agent.phone_number</element>
+            <list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-19 08:16:35</sys_created_on>
+            <sys_id>68569ab2f908b110f877bf4ada5230c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-19 08:16:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_684487_oms_store_delivery_agents</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-07-19 08:16:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4569ab2f908b110f877bf4ada5230c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_684487_oms_store_delivery_agents</sys_name>
+            <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+            <sys_update_name>sys_ui_list_x_684487_oms_store_delivery_agents_Store</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-07-19 08:16:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Store" name="Store">d38ffb7a9733211012b4bfb3f153afc1</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_list_x_684487_oms_store_delivery_agents_Store</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_684487_oms_store_delivery_agents" version="2" view="Store"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>store</element><list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-19 08:16:35</sys_created_on><sys_id>e0569ab2f908b110f877bf4ada5230c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-19 08:16:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>delivery_agent</element><list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-19 08:16:35</sys_created_on><sys_id>64569ab2f908b110f877bf4ada5230c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-19 08:16:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>delivery_agent.status</element><list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-19 08:16:35</sys_created_on><sys_id>e4569ab2f908b110f877bf4ada5230c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-19 08:16:35</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>delivery_agent.phone_number</element><list_id display_value="x_684487_oms_store_delivery_agents" element="NULL" name="x_684487_oms_store_delivery_agents" parent="NULL" relationship="NULL" sys_domain="global" view="d38ffb7a9733211012b4bfb3f153afc1">e4569ab2f908b110f877bf4ada5230c4</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-19 08:16:35</sys_created_on><sys_id>68569ab2f908b110f877bf4ada5230c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-19 08:16:35</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_684487_oms_store_delivery_agents</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-19 08:16:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e4569ab2f908b110f877bf4ada5230c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_684487_oms_store_delivery_agents</sys_name><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_ui_list_x_684487_oms_store_delivery_agents_Store</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-19 08:16:35</sys_updated_on><sys_user/><view display_value="Store" name="Store">d38ffb7a9733211012b4bfb3f153afc1</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1936616521</payload_hash>
+        <record_name>Store Delivery Agents</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-19 08:16:35</sys_created_on>
+        <sys_id>2c569ab2f908b110f877bf4ada5230c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1896d38f2100000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-19 08:16:35</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>24569ab2bb08b11077c42cf4cfde4cc7</update_guid>
+        <update_guid_history>24569ab2bb08b11077c42cf4cfde4cc7:1936616521,04c0b4da15003110be2581473fb20b09:1506868609</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-21 13:42:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>2a5ffeb9620147048ec44f310586d510</sys_id>
+        <sys_metadata>e4569ab2f908b110f877bf4ada5230c4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_684487_oms_store_delivery_agents</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Store Delivery Agents">f4ca0f0938003110f8777f8a95c65c9e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_684487_oms_store_delivery_agents_Store</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_684487_oms_store_delivery_agents_Store">2c569ab2f908b110f877bf4ada5230c7</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:42:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

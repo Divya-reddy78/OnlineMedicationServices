@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition table="x_684487_oms_buy_medicines.delivery_agent">status=accepted^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for delivery_agent in x_684487_oms_buy_medicines, for users with role x_684487_oms.store_admin, and if the ACL condition (status=accepted^EQ) evaluates to true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_684487_oms_buy_medicines.delivery_agent</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-19 11:19:49</sys_created_on>
+        <sys_id>e4404b72f9c8b110f877bf4ada52305a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_684487_oms_buy_medicines.delivery_agent</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_security_acl_e4404b72f9c8b110f877bf4ada52305a</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-19 11:40:07</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_security_acl_e4404b72f9c8b110f877bf4ada52305a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition table="x_684487_oms_buy_medicines.delivery_agent">status=accepted^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description>Allow write for delivery_agent in x_684487_oms_buy_medicines, for users with role x_684487_oms.store_admin, and if the ACL condition (status=accepted^EQ) evaluates to true.</description><local_or_existing>Local</local_or_existing><name>x_684487_oms_buy_medicines.delivery_agent</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-07-19 11:19:49</sys_created_on><sys_id>e4404b72f9c8b110f877bf4ada52305a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_684487_oms_buy_medicines.delivery_agent</sys_name><sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package><sys_policy/><sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope><sys_update_name>sys_security_acl_e4404b72f9c8b110f877bf4ada52305a</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-07-19 11:40:07</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-2020637006</payload_hash>
+        <record_name>x_684487_oms_buy_medicines.delivery_agent</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-19 11:40:07</sys_created_on>
+        <sys_id>4ae4cff6f9c8b110f877bf4ada523077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1896df348620000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-19 11:40:07</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>42e4cff6afc8b1102a18c918dbc00e77</update_guid>
+        <update_guid_history>42e4cff6afc8b1102a18c918dbc00e77:-2020637006,e1e1c33629c8b1100fb98747ec55cdd5:1480488688,70404b7221c8b110ecc832cb1617885f:-1272981932</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-19 11:45:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>44b5e552a19142bfa9c6b296a0ea5cf1</sys_id>
+        <sys_metadata>e4404b72f9c8b110f877bf4ada52305a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_684487_oms_buy_medicines.delivery_agent</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Delivery Agent">a5535ebef9c4b110f877bf4ada52304a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e4404b72f9c8b110f877bf4ada52305a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e4404b72f9c8b110f877bf4ada52305a">4ae4cff6f9c8b110f877bf4ada523077</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-19 11:45:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
