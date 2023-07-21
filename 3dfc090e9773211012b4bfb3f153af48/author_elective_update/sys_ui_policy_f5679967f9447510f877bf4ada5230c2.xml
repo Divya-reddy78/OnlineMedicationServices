@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.addInfoMessage(g_user.hasRole('x_684487_oms.store_admin') +" "+current.status);
+	if(g_user.hasRole('x_684487_oms.store_admin') && current.status != 'draft'){
+		g_form.setSectionDisplay('Deliver Agent Information',true);
+		
+	}
+	else if((g_user.hasRole('x_684487_oms.delivery_agent') || g_user.hasRole('x_684487_oms.user') )&& ( current.status == 'out_for_delivery' || current.status == 'delivered' )){
+		g_form.setSectionDisplay('Deliver Agent Information',true);
+	}
+	
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Delivery Agent section</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-21 11:45:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f5679967f9447510f877bf4ada5230c2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Hide Delivery Agent section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_ui_policy_f5679967f9447510f877bf4ada5230c2</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-21 15:00:49</sys_updated_on>
+        <table>x_684487_oms_buy_medicines</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_policy_f5679967f9447510f877bf4ada5230c2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+	
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	g_form.addInfoMessage(g_user.hasRole('x_684487_oms.store_admin') +" "+current.status);
+	if(g_user.hasRole('x_684487_oms.store_admin') &amp;&amp; current.status != 'draft'){
+		g_form.setSectionDisplay('Deliver Agent Information',true);
+		
+	}
+	else if((g_user.hasRole('x_684487_oms.delivery_agent') || g_user.hasRole('x_684487_oms.user') )&amp;&amp; ( current.status == 'out_for_delivery' || current.status == 'delivered' )){
+		g_form.setSectionDisplay('Deliver Agent Information',true);
+	}
+	
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Hide Delivery Agent section&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-21 11:45:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f5679967f9447510f877bf4ada5230c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hide Delivery Agent section&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online Medication Services" source="x_684487_oms"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Medication Services"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_f5679967f9447510f877bf4ada5230c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-21 15:00:49&lt;/sys_updated_on&gt;&lt;table&gt;x_684487_oms_buy_medicines&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>115554465</payload_hash>
+        <record_name>Hide Delivery Agent section</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-21 15:00:49</sys_created_on>
+        <sys_id>e906ce2ff9087510f877bf4ada5230ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18978f7be7e0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-21 15:00:49</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>e106ce2fc5087510f088df875fe5e4ba</update_guid>
+        <update_guid_history>e106ce2fc5087510f088df875fe5e4ba:115554465,d0d58a6fa4087510952e9bc328f6c341:-199995157,ebf4ca2b74087510d624be7ff5794015:346583644,f794462fc10875108f34689cace5ace6:-339342259,ad7b612f96847510c0f05e234a1618a2:-167360286,2939556b60447510f7145ce231fb2c01:-339342259</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-21 15:01:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>2a16d215281a48ef88ee06950d89e531</sys_id>
+        <sys_metadata>f5679967f9447510f877bf4ada5230c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Delivery Agent section</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Orders">6ae740c39773211012b4bfb3f153aff4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_f5679967f9447510f877bf4ada5230c2</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_f5679967f9447510f877bf4ada5230c2">e906ce2ff9087510f877bf4ada5230ba</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-21 15:01:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
