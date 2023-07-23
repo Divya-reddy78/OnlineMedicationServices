@@ -11,10 +11,18 @@
 OrderImpl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     orderCreated: function(order_sysid) {
         if (!gs.nil(order_sysid)) {
+			var addMed = new GlideRecord('x_684487_oms_add_medicines');
+			addMed.addQuery('buy_medicine',order_sysid);
+			addMed.query();
+			if(addMed.hasNext()){
             var orderGr = new GlideRecord('x_684487_oms_buy_medicines');
             orderGr.get(order_sysid);
             orderGr.setValue('status', 'requested');
             orderGr.update();
+			}
+			else{
+				gs.addErrorMessage("Atleast one medicine should be added to place an order");
+			}
         }
     },
     acceptOrder: function() {
@@ -25,30 +33,30 @@ OrderImpl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             orderGr.update();
         }
     },
-	initateOrder: function(){
-		if (!gs.nil(order_sysid)) {
+    initateOrder: function() {
+        if (!gs.nil(order_sysid)) {
             var orderGr = new GlideRecord('x_684487_oms_buy_medicines');
             orderGr.get(order_sysid);
             orderGr.setValue('status', 'out_for_delivery');
             orderGr.update();
-			
-			var delGr = new GlideRecord('x_684487_oms_delivery_agents');
-			delGr.get(orderGr.delivery_agent.delivery_agent);
-			delGr.setValue('status','occupied');
+
+            var delGr = new GlideRecord('x_684487_oms_delivery_agents');
+            delGr.get(orderGr.delivery_agent.delivery_agent);
+            delGr.setValue('status', 'occupied');
         }
-	},
-	finishOrder: function(){
-		if (!gs.nil(order_sysid)) {
+    },
+    finishOrder: function() {
+        if (!gs.nil(order_sysid)) {
             var orderGr = new GlideRecord('x_684487_oms_buy_medicines');
             orderGr.get(order_sysid);
             orderGr.setValue('status', 'delivered');
             orderGr.update();
-			
-			var delGr = new GlideRecord('x_684487_oms_delivery_agents');
-			delGr.get(orderGr.delivery_agent.delivery_agent);
-			delGr.setValue('status','available');
+
+            var delGr = new GlideRecord('x_684487_oms_delivery_agents');
+            delGr.get(orderGr.delivery_agent.delivery_agent);
+            delGr.setValue('status', 'available');
         }
-	},
+    },
     deliverRefQual: function(store_sysid) {
         var del_ids = [];
         if (gs.nil(store_sysid)) {
@@ -66,19 +74,50 @@ OrderImpl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         gr.addQuery('sys_id', 'IN', !gs.nil(del_ids) ? del_ids : []);
         return gr.getEncodedQuery();
     },
+    checkduplicatedosagerec: function(dosagerec) {
+        var gr = new GlideRecord(dosagerec.getTableName());
+		gr.addQuery('medicine',dosagerec.getValue('medicine'));
+		gr.addQuery('mg',dosagerec.getValue('mg'));
+		gr.query();
+		return gr.hasNext();
+    },
+	checkduplicateavailmedrec: function(availmedrec) {
+        var gr = new GlideRecord(availmedrec.getTableName());
+		if(!gs.nil(availmedrec.getValue('dosage'))){
+			gr.addQuery('store',availmedrec.getValue('store'));
+			gr.addQuery('medicine',availmedrec.getValue('medicine'));
+			gr.addQuery('dosage',availmedrec.getValue('dosage'));
+			gr.query();
+			return gr.hasNext();
+		}
+		else {
+			gr.addQuery('store',availmedrec.getValue('store'));
+			gr.addQuery('medicine',availmedrec.getValue('medicine'));
+			gr.addQuery('dosage','');
+			gr.query();
+			return gr.hasNext();
+		}
+    },
+	checkduplicatestoredel: function(storedelrec){
+		var gr = new GlideRecord(storedelrec.getTableName());
+		gr.addQuery('store',storedelrec.getValue('store'));
+		gr.addQuery('delivery_agent',storedelrec.getValue('delivery_agent'));
+		gr.query();
+		return gr.hasNext();
+	},
     type: 'OrderImpl'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-07-14 05:37:10</sys_created_on>
         <sys_id>d3a18cd138043110f8777f8a95c65c98</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>OrderImpl</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_script_include_d3a18cd138043110f8777f8a95c65c98</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-21 18:52:18</sys_updated_on>
+        <sys_updated_on>2023-07-23 12:58:18</sys_updated_on>
     </sys_script_include>
 </record_update>

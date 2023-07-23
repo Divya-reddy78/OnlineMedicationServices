@@ -2,7 +2,7 @@
     <element db_object_id="21b102d400003110f8778e61957b2a5b" label="Available Medicines" max_length="40" name="x_684487_oms_available_medicines" type="collection">
         <element label="Dosage" max_length="32" name="dosage" reference="x_684487_oms_dosage" reference_qual="javascript:&quot;medicine=&quot;+current.medicine" type="reference" use_reference_qualifier="advanced"/>
         <element display="true" label="Medicine" mandatory="true" max_length="32" name="medicine" reference="x_684487_oms_medicines" type="reference"/>
-        <element label="Store" max_length="32" name="store" read_only="true" reference="x_684487_oms_store" type="reference"/>
+        <element label="Store" max_length="32" name="store" read_only="true" reference="x_684487_oms_store" reference_cascade_rule="cascade" type="reference"/>
         <index name="index">
             <element name="dosage"/>
         </index>

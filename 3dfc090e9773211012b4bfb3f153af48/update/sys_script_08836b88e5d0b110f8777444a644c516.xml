@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_684487_oms_buy_medicines</collection>
+        <collection>x_684487_oms_store</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Set Status field</name>
+        <name>Populate Store Admin</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,27 +28,30 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
+	if(current.isNewRecord()){
+		current.store_admin = gs.getUserID();
+	}
+	
 	// Add your code here
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>maint</sys_created_by>
-        <sys_created_on>2023-07-18 13:38:56</sys_created_on>
+        <sys_created_on>2023-07-23 11:09:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>12369aeef9c47110f877bf4ada5230c6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Set Status field</sys_name>
+        <sys_id>08836b88e5d0b110f8777444a644c516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Store Admin</sys_name>
         <sys_overrides/>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
-        <sys_update_name>sys_script_12369aeef9c47110f877bf4ada5230c6</sys_update_name>
+        <sys_update_name>sys_script_08836b88e5d0b110f8777444a644c516</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-22 15:42:19</sys_updated_on>
-        <template>status=draft^total_price=0^delivery_agent=^EQ</template>
+        <sys_updated_on>2023-07-23 11:09:04</sys_updated_on>
+        <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=12369aeef9c47110f877bf4ada5230c6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=08836b88e5d0b110f8777444a644c516"/>
 </record_update>

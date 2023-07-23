@@ -41,7 +41,7 @@
         <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="x_684487_oms_store">x_684487_oms_store</reference>
-        <reference_cascade_rule/>
+        <reference_cascade_rule>cascade</reference_cascade_rule>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_dictionary_x_684487_oms_store_delivery_agents_store</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-21 13:27:35</sys_updated_on>
+        <sys_updated_on>2023-07-23 12:33:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

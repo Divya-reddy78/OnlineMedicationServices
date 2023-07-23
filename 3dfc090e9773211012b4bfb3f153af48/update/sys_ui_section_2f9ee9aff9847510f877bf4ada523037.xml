@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>cc8f2963f9c47510f877bf4ada523075</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>60626348e5d0b110f8777444a644c51e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,125 +18,111 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>408f2963f9c47510f877bf4ada523076</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>e4626348e5d0b110f8777444a644c51e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>store_admin</element>
-            <position>2</position>
-            <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>c08f2963f9c47510f877bf4ada523076</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
-            <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>phone</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>448f2963f9c47510f877bf4ada523076</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>68626348e5d0b110f8777444a644c51e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>zip</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>c48f2963f9c47510f877bf4ada523076</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>e8626348e5d0b110f8777444a644c51e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>488f2963f9c47510f877bf4ada523076</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>6c626348e5d0b110f8777444a644c51e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>street</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>c88f2963f9c47510f877bf4ada523076</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>ec626348e5d0b110f8777444a644c51e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>city</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>4c8f2963f9c47510f877bf4ada523076</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>60626348e5d0b110f8777444a644c51f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>cc8f2963f9c47510f877bf4ada523076</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>e0626348e5d0b110f8777444a644c51f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>country</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-07-21 13:22:25</sys_created_on>
-            <sys_id>408f2963f9c47510f877bf4ada523077</sys_id>
+            <sys_created_on>2023-07-23 11:01:18</sys_created_on>
+            <sys_id>64626348e5d0b110f8777444a644c51f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_684487_oms_store" sys_domain="global" view="Default view">2f9ee9aff9847510f877bf4ada523037</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-07-21 13:22:25</sys_updated_on>
+            <sys_updated_on>2023-07-23 11:01:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

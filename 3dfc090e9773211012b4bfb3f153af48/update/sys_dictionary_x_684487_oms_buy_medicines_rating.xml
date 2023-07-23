@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="store" table="x_684487_oms_available_medicines">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="rating" table="x_684487_oms_buy_medicines">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -10,10 +10,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Store</column_label>
+        <column_label>Rating</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -26,22 +26,22 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>store</element>
+        <element>rating</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
-        <name>x_684487_oms_available_medicines</name>
+        <max_length>40</max_length>
+        <name>x_684487_oms_buy_medicines</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_684487_oms_store">x_684487_oms_store</reference>
-        <reference_cascade_rule>cascade</reference_cascade_rule>
+        <reference/>
+        <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual/>
@@ -51,14 +51,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>maint</sys_created_by>
-        <sys_created_on>2023-07-11 12:24:05</sys_created_on>
-        <sys_name>Store</sys_name>
+        <sys_created_on>2023-07-23 14:00:22</sys_created_on>
+        <sys_name>Rating</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
-        <sys_update_name>sys_dictionary_x_684487_oms_available_medicines_store</sys_update_name>
+        <sys_update_name>sys_dictionary_x_684487_oms_buy_medicines_rating</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-23 11:50:25</sys_updated_on>
+        <sys_updated_on>2023-07-23 14:00:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
