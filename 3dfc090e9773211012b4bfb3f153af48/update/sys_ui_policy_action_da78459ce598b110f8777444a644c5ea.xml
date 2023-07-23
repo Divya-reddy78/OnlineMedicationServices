@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>rating</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-23 18:27:33</sys_created_on>
+        <sys_id>da78459ce598b110f8777444a644c5ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rating</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_ui_policy_action_da78459ce598b110f8777444a644c5ea</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-23 18:27:33</sys_updated_on>
+        <table>x_684487_oms_buy_medicines</table>
+        <ui_policy display_value="Make Rating field visible on delivered status">7d28cd5ce598b110f8777444a644c563</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

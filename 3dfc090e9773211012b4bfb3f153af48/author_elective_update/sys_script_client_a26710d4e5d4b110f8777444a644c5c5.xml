@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>status</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Make Rating editable in delivered status</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (newValue === '') {
+      return;
+   }
+	g_form.addInfoMessage(g_form.getValue('rating'));
+	if(newValue == 'delivered'){
+		if(g_form.getValue('rating') != ''){
+		g_form.setReadOnly('rating',true);
+		}
+		else{
+			g_form.setReadOnly('rating',false);
+		}
+	}
+	else{
+		g_form.setReadOnly('rating',true);
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-23 14:57:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a26710d4e5d4b110f8777444a644c5c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Make Rating editable in delivered status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_script_client_a26710d4e5d4b110f8777444a644c5c5</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-23 15:00:39</sys_updated_on>
+        <table>x_684487_oms_buy_medicines</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_client_a26710d4e5d4b110f8777444a644c5c5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;status&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Make Rating editable in delivered status&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (newValue === '') {
+      return;
+   }
+	g_form.addInfoMessage(g_form.getValue('rating'));
+	if(newValue == 'delivered'){
+		if(g_form.getValue('rating') != ''){
+		g_form.setReadOnly('rating',true);
+		}
+		else{
+			g_form.setReadOnly('rating',false);
+		}
+	}
+	else{
+		g_form.setReadOnly('rating',true);
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-23 14:57:24&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a26710d4e5d4b110f8777444a644c5c5&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Make Rating editable in delivered status&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online Medication Services" source="x_684487_oms"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Medication Services"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a26710d4e5d4b110f8777444a644c5c5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-23 15:00:39&lt;/sys_updated_on&gt;&lt;table&gt;x_684487_oms_buy_medicines&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1734096718</payload_hash>
+        <record_name>Make Rating editable in delivered status</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-23 15:00:39</sys_created_on>
+        <sys_id>fe295058e5d4b110f8777444a644c548</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189834450c30000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-23 15:00:39</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f629505833d4b110947b1f45545d4348</update_guid>
+        <update_guid_history>f629505833d4b110947b1f45545d4348:-1734096718,56d8dc9439d4b110b00b16ff05a5d835:1003471263,60985c94a4d4b110681b76e5b277d938:1957640959,4b689894fdd4b1100d9ccba13df5d8ca:743365037</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-23 16:23:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3c97c00ca40042309be6a00f437f6404</sys_id>
+        <sys_metadata>a26710d4e5d4b110f8777444a644c5c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Rating editable in delivered status</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Orders">6ae740c39773211012b4bfb3f153aff4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_a26710d4e5d4b110f8777444a644c5c5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a26710d4e5d4b110f8777444a644c5c5">fe295058e5d4b110f8777444a644c548</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-23 16:23:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
