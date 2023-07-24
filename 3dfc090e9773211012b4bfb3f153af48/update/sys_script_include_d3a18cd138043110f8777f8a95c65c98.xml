@@ -105,6 +105,19 @@ OrderImpl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		gr.query();
 		return gr.hasNext();
 	},
+	checkduplicateaddmed: function(addmedrec){
+		var gr = new GlideRecord(addmedrec.getTableName());
+		gr.addQuery('buy_medicine',addmedrec.getValue('buy_medicine'));
+		gr.addQuery('medicine',addmedrec.getValue('medicine'));
+		gr.query();
+		return gr.hasNext();
+	},
+	checkduplicatedelagent: function(delagentrec){
+		var gr = new GlideRecord(delagentrec.getTableName());
+		gr.addQuery('name',delagentrec.getValue('name'));
+		gr.query();
+		return gr.hasNext();
+	},
 	checkifordersexist: function(storerec){
 		var gr = new GlideRecord('x_684487_oms_buy_medicines');
 		gr.addQuery('store',storerec.getValue('sys_id'));
@@ -126,13 +139,13 @@ OrderImpl.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-07-14 05:37:10</sys_created_on>
         <sys_id>d3a18cd138043110f8777f8a95c65c98</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>OrderImpl</sys_name>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_script_include_d3a18cd138043110f8777f8a95c65c98</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-23 18:44:43</sys_updated_on>
+        <sys_updated_on>2023-07-24 11:48:25</sys_updated_on>
     </sys_script_include>
 </record_update>

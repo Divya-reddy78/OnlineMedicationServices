@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_684487_oms_add_medicines</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calculate and set Total Price</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+		if(current.quantity >= 1){
+        var delta = current.buy_medicine.total_price - (previous.medicine.medicine.price * previous.quantity);
+        var new_price = (current.medicine.medicine.price * current.quantity) + delta;
+        var gr = new GlideRecord('x_684487_oms_buy_medicines');
+        gr.get(current.buy_medicine);
+        gr.setValue('total_price', new_price);
+        gr.update();
+		}
+    // Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-22 15:31:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab86dff7e5807110f8777444a644c570</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Calculate and set Total Price</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_script_ab86dff7e5807110f8777444a644c570</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-24 11:26:53</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=ab86dff7e5807110f8777444a644c570"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_ab86dff7e5807110f8777444a644c570</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_684487_oms_add_medicines&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Calculate and set Total Price&lt;/name&gt;&lt;order&gt;200&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+		if(current.quantity &gt;= 1){
+        var delta = current.buy_medicine.total_price - (previous.medicine.medicine.price * previous.quantity);
+        var new_price = (current.medicine.medicine.price * current.quantity) + delta;
+        var gr = new GlideRecord('x_684487_oms_buy_medicines');
+        gr.get(current.buy_medicine);
+        gr.setValue('total_price', new_price);
+        gr.update();
+		}
+    // Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-22 15:31:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ab86dff7e5807110f8777444a644c570&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;Calculate and set Total Price&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online Medication Services" source="x_684487_oms"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Medication Services"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_ab86dff7e5807110f8777444a644c570&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-24 11:26:53&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=ab86dff7e5807110f8777444a644c570"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2134614821</payload_hash>
+        <record_name>Calculate and set Total Price</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-24 11:26:53</sys_created_on>
+        <sys_id>41d1b0a4e598f110f8777444a644c524</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18987a6f4fb0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-24 11:26:53</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>c5d1b0a4b198f110ee0c1e2132938823</update_guid>
+        <update_guid_history>c5d1b0a4b198f110ee0c1e2132938823:-2134614821,42a0f424b098f1102690738567fdb9a7:-140218328,39af64e0d798f110585ab9e47b5fa178:150592733,1b7fe0e0be98f110b0f3bf873912a8d1:2093619420,91e054a07418f110397bf54174c2836d:150592733,2f1b88a80ed4f1106fea8c2a27f81945:2093619420,c2f70ca4f5d4f110fb3b683e936dfe30:150592733,8616b058dd58b11077d04cf03641acf6:1918775351,2215585099d4b11045c2dcc53c38ad5b:2093619420,03dcb3085454b11053e9bc7be290b046:-1888502954,929cbbc4ad54b11002dd974a57e3b6d3:755071751,effa1b3fe38071107a93ebaa788dd1a3:-1555298882,6a4a53fb3a8071105c4146226370d5af:227968226,c5c857bbeb807110da210253926cf772:-690650891,bc48db7b778071103f57ea44ef3781df:1586177666,bb08db7b718071109e80fc17f170c97a:-894614370,68a7537b39807110a4c2de9be64e9554:-1727803407,59679337f580711054d1421509d7cf75:1905888120,0cb6dff78980711027a662efa72f651e:-1910281033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-24 11:45:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0b98a641ac6042ef853b301bc9c5ad79</sys_id>
+        <sys_metadata>ab86dff7e5807110f8777444a644c570</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate and set Total Price</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Add Medicines">c35d25e000cc3110f8778e61957b2a93</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_script_ab86dff7e5807110f8777444a644c570</sys_update_name>
+        <sys_update_version display_value="sys_script_ab86dff7e5807110f8777444a644c570">41d1b0a4e598f110f8777444a644c524</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-24 11:45:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
