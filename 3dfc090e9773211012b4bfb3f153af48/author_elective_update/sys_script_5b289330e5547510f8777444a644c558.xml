@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_684487_oms_buy_medicines</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Delete add medicines on store change</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (!current.isNewRecord()) {
+		gs.addInfoMessage(current.store + " "+ previous.store);
+        if (current.store && current.store != previous.store) {
+			gs.addInfoMessage("entered");
+			var addMed = new GlideRecord('x_684487_oms_add_medicines');
+			addMed.addQuery('buy_medicine',current.sys_id);
+			addMed.query();
+			
+			if(addMed.hasNext()){
+				gs.addInfoMessage("entered has next");
+            var message = getMessage("Updating the store will result in deletion of added medicines");
+            var dialog = new GlideModal("x_684487_oms_Order", true);
+            dialog.setTitle(getMessage("Update Store?"));
+            dialog.setPreference("sysparm_sys_id", g_form.getUniqueValue());
+            dialog.setPreference("sysparm_test", message);
+            assetSetDomainParameters(dialog);
+            dialog.setWidth(400);
+            dialog.render();
+			}
+        }
+    }
+    // Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-25 18:19:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b289330e5547510f8777444a644c558</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Delete add medicines on store change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_script_5b289330e5547510f8777444a644c558</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-25 18:54:09</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=5b289330e5547510f8777444a644c558"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_5b289330e5547510f8777444a644c558</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_684487_oms_buy_medicines&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Delete add medicines on store change&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    if (!current.isNewRecord()) {
+		gs.addInfoMessage(current.store + " "+ previous.store);
+        if (current.store &amp;&amp; current.store != previous.store) {
+			gs.addInfoMessage("entered");
+			var addMed = new GlideRecord('x_684487_oms_add_medicines');
+			addMed.addQuery('buy_medicine',current.sys_id);
+			addMed.query();
+			
+			if(addMed.hasNext()){
+				gs.addInfoMessage("entered has next");
+            var message = getMessage("Updating the store will result in deletion of added medicines");
+            var dialog = new GlideModal("x_684487_oms_Order", true);
+            dialog.setTitle(getMessage("Update Store?"));
+            dialog.setPreference("sysparm_sys_id", g_form.getUniqueValue());
+            dialog.setPreference("sysparm_test", message);
+            assetSetDomainParameters(dialog);
+            dialog.setWidth(400);
+            dialog.render();
+			}
+        }
+    }
+    // Add your code here
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-25 18:19:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5b289330e5547510f8777444a644c558&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete add medicines on store change&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Online Medication Services" source="x_684487_oms"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Medication Services"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_5b289330e5547510f8777444a644c558&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-25 18:54:09&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5b289330e5547510f8777444a644c558"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1172739460</payload_hash>
+        <record_name>Delete add medicines on store change</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-25 18:54:10</sys_created_on>
+        <sys_id>36c1633ce5547510f8777444a644c5c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1898e66d0940000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-25 18:54:10</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>bac1633c645475105b268f9fea55f0c1</update_guid>
+        <update_guid_history>bac1633c645475105b268f9fea55f0c1:-1172739460,c29e1b380f5475100fed440aad7f9587:-1426799485,47bd57f43c54751017731d2f3a43babb:-368783826,14ad1bf44554751022334ca131d2d531:1502472973,667ddfb42954751038d6e5dc5b5ad406:-2028200805,97dc57b4645475103e4fa40ffec12e75:-670090353,bd9c9bf0c0547510d7895887aa055cf7:-922559752,ccc913b045547510ba316193b12ffd00:1057465825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-25 19:05:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>16f2ab748b8642e082ab846915904790</sys_id>
+        <sys_metadata>5b289330e5547510f8777444a644c558</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete add medicines on store change</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent display_value="Orders">6ae740c39773211012b4bfb3f153aff4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_script_5b289330e5547510f8777444a644c558</sys_update_name>
+        <sys_update_version display_value="sys_script_5b289330e5547510f8777444a644c558">36c1633ce5547510f8777444a644c5c2</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-25 19:05:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

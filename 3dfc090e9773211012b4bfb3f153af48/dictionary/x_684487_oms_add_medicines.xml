@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c35d25e000cc3110f8778e61957b2a93" label="Add Medicines" max_length="40" name="x_684487_oms_add_medicines" type="collection">
         <element label="Order" max_length="32" name="buy_medicine" read_only="true" reference="x_684487_oms_buy_medicines" reference_cascade_rule="cascade" type="reference"/>
-        <element label="Medicine" mandatory="true" max_length="32" name="medicine" reference="x_684487_oms_available_medicines" reference_qual="javascript:&quot;store=&quot;+current.buy_medicine.store" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Medicine" mandatory="true" max_length="32" name="medicine" reference="x_684487_oms_available_medicines" reference_cascade_rule="cascade" reference_qual="javascript:&quot;store=&quot;+current.buy_medicine.store" type="reference" use_reference_qualifier="advanced"/>
         <element label="Quantity " mandatory="true" max_length="40" name="quantity" type="integer"/>
         <index name="index">
             <element name="buy_medicine"/>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[function cancel(){
+	var c = gel('confirmation_result');
+	c.value = 'go_back';
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+function ok() {
+	var c = gel('confirmation_result');
+	c.value = 'ok';
+	return true;
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_684487_oms_Delete_add_medicines.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<g:ui_form>
+<input type="hidden" name="confirmation_result" id="confirmation_result" value=""/>
+<input type="hidden" name="order_sysid" id="order_sysid" value="${sysparm_sys_id}"/>
+<div style="text-align:left;">           
+	
+	<div> $[HTML:gs.getMessage("${sysparm_test}")] </div>
+	
+	<div align="right" style="margin-top:16px">
+	<button class="btn btn-default" style="margin-right:4px" onclick="cancel();">${gs.getMessage("Cancel")}</button>
+	<button class="btn btn-danger" onclick="ok();">${gs.getMessage("Order")}</button>
+	</div>
+</div>
+
+</g:ui_form>
+</j:jelly>]]></html>
+        <name>Delete_add_medicines</name>
+        <processing_script><![CDATA[if(confirmation_result == 'ok') {
+	var order = new x_684487_oms.OrderImpl();
+	order.deladdMedlist(order_sysid);
+	response.sendRedirect("/x_684487_oms_buy_medicines?sys_id=" + order_sysid);
+}]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-25 18:16:06</sys_created_on>
+        <sys_id>7da853b0e5547510f8777444a644c5e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Delete_add_medicines</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_ui_page_7da853b0e5547510f8777444a644c5e7</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-25 18:33:10</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</application>
+        <file_path/>
+        <instance_id>2641da4ed10031101ba1ff356647be21</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_page_7da853b0e5547510f8777444a644c5e7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function cancel(){
+	var c = gel('confirmation_result');
+	c.value = 'go_back';
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+function ok() {
+	var c = gel('confirmation_result');
+	c.value = 'ok';
+	return true;
+}]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_684487_oms_Delete_add_medicines.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;g:ui_form&gt;
+&lt;input type="hidden" name="confirmation_result" id="confirmation_result" value=""/&gt;
+&lt;input type="hidden" name="order_sysid" id="order_sysid" value="${sysparm_sys_id}"/&gt;
+&lt;div style="text-align:left;"&gt;           
+	
+	&lt;div&gt; $[HTML:gs.getMessage("${sysparm_test}")] &lt;/div&gt;
+	
+	&lt;div align="right" style="margin-top:16px"&gt;
+	&lt;button class="btn btn-default" style="margin-right:4px" onclick="cancel();"&gt;${gs.getMessage("Cancel")}&lt;/button&gt;
+	&lt;button class="btn btn-danger" onclick="ok();"&gt;${gs.getMessage("Order")}&lt;/button&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/g:ui_form&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;Delete_add_medicines&lt;/name&gt;&lt;processing_script&gt;&lt;![CDATA[if(confirmation_result == 'ok') {
+	var order = new x_684487_oms.OrderImpl();
+	order.deladdMedlist(order_sysid);
+	response.sendRedirect("/x_684487_oms_buy_medicines?sys_id=" + order_sysid);
+}]]&gt;&lt;/processing_script&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-07-25 18:16:06&lt;/sys_created_on&gt;&lt;sys_id&gt;7da853b0e5547510f8777444a644c5e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete_add_medicines&lt;/sys_name&gt;&lt;sys_package display_value="Online Medication Services" source="x_684487_oms"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Online Medication Services"&gt;3dfc090e9773211012b4bfb3f153af48&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_7da853b0e5547510f8777444a644c5e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-25 18:33:10&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-778733018</payload_hash>
+        <record_name>Delete_add_medicines</record_name>
+        <reverted_from/>
+        <source>0b11345af9003110f877bf4ada5230fb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-25 18:33:10</sys_created_on>
+        <sys_id>9bfc13b4e5547510f8777444a644c535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1898e539a2e0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-25 18:33:10</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>93fc13b4775475109917a40e831c7435</update_guid>
+        <update_guid_history>93fc13b4775475109917a40e831c7435:-778733018,670a57f0df547510e06840d36c25408d:-250918748,dd195bb09a547510ae29aa8e7d2924f6:865513950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-25 19:05:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>5c7c702b1f05453b927c396968d1c0b1</sys_id>
+        <sys_metadata>7da853b0e5547510f8777444a644c5e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete_add_medicines</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_scope_delete display_value="">179cfc54555e4d039b4acbd96b7da3e1</sys_scope_delete>
+        <sys_update_name>sys_ui_page_7da853b0e5547510f8777444a644c5e7</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_7da853b0e5547510f8777444a644c5e7">9bfc13b4e5547510f8777444a644c535</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-25 19:05:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

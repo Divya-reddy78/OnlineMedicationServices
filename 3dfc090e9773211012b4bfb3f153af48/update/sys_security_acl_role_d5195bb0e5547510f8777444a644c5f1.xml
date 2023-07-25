@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-07-25 18:16:06</sys_created_on>
+        <sys_id>d5195bb0e5547510f8777444a644c5f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_684487_oms_Delete_add_medicines.x_684487_oms.user</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_security_acl display_value="x_684487_oms_Delete_add_medicines">0119dbfce5147510f8777444a644c5b6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d5195bb0e5547510f8777444a644c5f1</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-07-25 18:16:06</sys_updated_on>
+        <sys_user_role display_value="x_684487_oms.user" name="x_684487_oms.user">ff366826f9007110f877bf4ada5230b6</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
