@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_684487_oms_buy_medicines,x_684487_oms_delivery_agents,x_684487_oms_medicines,x_684487_oms_store</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>workspace/online-medication-services Search Profile Default Spell Check Dictionary</label>
+        <last_derived/>
+        <locale>en</locale>
+        <name>x_684487_oms_workspace_online_medication_services_search_profile_default_spell_check_dictionary</name>
+        <publish_id/>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>DRAFT</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 08:11:11</sys_created_on>
+        <sys_id>d58eecc447247110ee384aff336d4347</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_684487_oms_workspace_online_medication_services_search_profile_default_spell_check_dictionary</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>ais_dictionary_d58eecc447247110ee384aff336d4347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 08:11:11</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

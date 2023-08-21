@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>oms_workspace</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 08:11:06</sys_created_on>
+        <sys_id>af7e2cc45d2471101ecd5ecdbd152e46</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OMS Workspace</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_ui_view_af7e2cc45d2471101ecd5ecdbd152e46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 10:04:47</sys_updated_on>
+        <title>OMS Workspace</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

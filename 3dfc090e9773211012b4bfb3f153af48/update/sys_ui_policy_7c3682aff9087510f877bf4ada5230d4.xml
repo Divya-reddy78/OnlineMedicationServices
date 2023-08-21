@@ -33,17 +33,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7c3682aff9087510f877bf4ada5230d4</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Hide Delivery Agent Section</sys_name>
         <sys_overrides/>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_ui_policy_7c3682aff9087510f877bf4ada5230d4</sys_update_name>
-        <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-21 18:23:52</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 19:11:38</sys_updated_on>
         <table>x_684487_oms_buy_medicines</table>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_ui_policy>
 </record_update>

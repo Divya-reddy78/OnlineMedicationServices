@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Online Medication Services">a77e2cc459247110b59148dd71cb0f4a</dashboard>
+        <group/>
+        <role display_value="x_684487_oms.med_admin" name="x_684487_oms.med_admin">9a4f4d0297b3211012b4bfb3f153afe3</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 08:11:08</sys_created_on>
+        <sys_id>248e6cc447247110ee384aff336d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a77e2cc459247110b59148dd71cb0f4a</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>par_dashboard_permission_248e6cc447247110ee384aff336d4396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 08:11:08</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

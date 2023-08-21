@@ -4,18 +4,43 @@
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-
+	var sysId = g_form.getUniqueValue();
+	function doOrder() {
+        var ga = new GlideAjax('x_684487_oms.OrderImpl');
+        ga.addParam('sysparm_name', 'orderCreatedWP');
+        ga.addParam('sysparm_sys_id', sysId);
+        ga.getXML(parseResponse);
+    }
+    function parseResponse() {
+        g_form.reload();
+    }
+	var title = getMessage('Place an Order');
+    var msg = getMessage("The Order details can't be modified and medicines can't be added");
+	var cancelLabel = getMessage('Cancel');
+    var confirmationLabel = getMessage('Order');
+    g_modal.confirm(
+        title,
+        msg,
+        function(response) {
+            if (response) {
+                doOrder();
+            }
+        }, {
+            cancelTitle: cancelLabel,
+            confirmTitle: confirmationLabel,
+        }
+    );
 }]]></client_script_v2>
         <comments/>
         <condition>gs.hasRole('x_684487_oms.user')  &amp;&amp; current.status == 'draft' &amp;&amp; !current.isNewRecord()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>true</isolate_script>
         <list_action>false</list_action>
@@ -50,15 +75,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f8ee745538083110f8777f8a95c65cca</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_ui_action_f8ee745538083110f8777f8a95c65cca</sys_update_name>
-        <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-21 18:28:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 21:45:52</sys_updated_on>
         <table>x_684487_oms_buy_medicines</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

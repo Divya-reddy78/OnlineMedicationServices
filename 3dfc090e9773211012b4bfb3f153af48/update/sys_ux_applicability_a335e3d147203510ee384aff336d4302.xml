@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_684487_oms.Store Admin</api_name>
+        <description/>
+        <name>Store Admin</name>
+        <roles name="x_684487_oms.store_admin">e8ed333a9733211012b4bfb3f153af7f</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-08 18:42:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a335e3d147203510ee384aff336d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Store Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>sys_ux_applicability_a335e3d147203510ee384aff336d4302</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 18:42:10</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

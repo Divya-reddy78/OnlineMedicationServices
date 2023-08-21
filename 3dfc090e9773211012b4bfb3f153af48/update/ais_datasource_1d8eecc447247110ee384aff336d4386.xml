@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Delivery Agents Table</name>
+        <retention_policy/>
+        <source>x_684487_oms_delivery_agents</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 08:11:11</sys_created_on>
+        <sys_id>1d8eecc447247110ee384aff336d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delivery Agents Table</sys_name>
+        <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
+        <sys_update_name>ais_datasource_1d8eecc447247110ee384aff336d4386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 08:11:11</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

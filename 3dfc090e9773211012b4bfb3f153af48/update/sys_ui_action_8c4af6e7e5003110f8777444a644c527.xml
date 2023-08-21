@@ -4,18 +4,45 @@
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
+    var sysId = g_form.getUniqueValue();
 
+    function doComplete() {
+        var ga = new GlideAjax('x_684487_oms.OrderImpl');
+        ga.addParam('sysparm_name', 'finishOrderWP');
+        ga.addParam('sysparm_sys_id', sysId);
+        ga.getXML(parseResponse);
+    }
+
+    function parseResponse() {
+        g_form.reload();
+    }
+    var title = getMessage('Completed Delivery?');
+    var msg = getMessage("The package is handed to the user");
+    var cancelLabel = getMessage('Cancel');
+    var confirmationLabel = getMessage('Ok');
+    g_modal.confirm(
+        title,
+        msg,
+        function(response) {
+            if (response) {
+                doComplete();
+            }
+        }, {
+            cancelTitle: cancelLabel,
+            confirmTitle: confirmationLabel,
+        }
+    );
 }]]></client_script_v2>
         <comments/>
         <condition>gs.hasRole('x_684487_oms.delivery_agent')  &amp;&amp; current.status == 'out_for_delivery'</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>true</isolate_script>
         <list_action>false</list_action>
@@ -50,15 +77,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c4af6e7e5003110f8777444a644c527</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Complete Delivery </sys_name>
         <sys_overrides/>
         <sys_package display_value="Online Medication Services" source="x_684487_oms">3dfc090e9773211012b4bfb3f153af48</sys_package>
         <sys_policy/>
         <sys_scope display_value="Online Medication Services">3dfc090e9773211012b4bfb3f153af48</sys_scope>
         <sys_update_name>sys_ui_action_8c4af6e7e5003110f8777444a644c527</sys_update_name>
-        <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-07-21 19:01:07</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 21:51:59</sys_updated_on>
         <table>x_684487_oms_buy_medicines</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
